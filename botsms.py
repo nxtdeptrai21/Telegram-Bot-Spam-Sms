@@ -6,7 +6,7 @@ from telegram.ext import Updater, CommandHandler
 import multiprocessing
 
 
-bot_token = 'bot-token'
+bot_token = '6161077804:AAFB_xauU7pIWL6Kglx3NcWZEVfNytbqQXQ'
 bot = telegram.Bot(token=bot_token)
 def sms(update, context):
     # Kiểm tra xem thời gian giữa các lần sử dụng lệnh có đủ lớn không
@@ -18,8 +18,8 @@ def sms(update, context):
         context.bot.send_message(chat_id=update.effective_chat.id, text=f"Bạn cần đợi {remaining_time} giây trước khi sử dụng lại lệnh.")
         return
     phone_number = context.args[0]
-    url1 = "https://fb88.art/api/api_spam_all.php?phone={}&key=dichvumxh.net".format(phone_number)
-    url2 = "http://hxammo.byethost5.com/spamsms.php?phone={}&key=dichvumxh.net".format(phone_number)
+    url1 = "https://kid.io.vn/api/10api.php?phone={}&key=khenglee".format(phone_number)
+    url2 = "https://kid.io.vn/api/10api.php?phone={}&key=khenglee".format(phone_number)
 
     response1 = requests.get(url1)
     response2 = requests.get(url2)
